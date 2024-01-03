@@ -131,7 +131,15 @@ header {
     }
     
   }
-  
+/* video section
+.......................*/
+.spacing-center {
+  text-align: center;
+} 
+
+.video-title {
+  margin-bottom: 70px;
+}
 
 /* about section 
 .......................*/
@@ -170,7 +178,7 @@ header {
  }
  .portfolio-heading {
   text-align: center;
-  padding-bottom: 50px 
+  padding-bottom: 70px 
 }
 
 .gallery {
