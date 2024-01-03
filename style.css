@@ -1,9 +1,6 @@
 /* GLOBAL STYLES
 -------------------------------------------------- */
-/* Padding below the footer and lighter body text */
 
-
-   
 body {
 
     padding-top: 3rem;
@@ -97,17 +94,8 @@ header {
     color: #f1f5f7 !important;
     transform: translateX(-50%);
 }
-/*@media (min-width: 1200px) {
-  .n {
-       border-top-width: 80px;
-   }
-  }
-@media (min-width: 600px) {
-  .n {
-       border-top-width: 60px;
-   }
-}*/
-  /* MARKETING CONTENT
+
+  /* Intro CONTENT
   -------------------------------------------------- */
   
   /* Center align the text within the three columns below the carousel */
