@@ -122,15 +122,32 @@ header {
 /* video section
 .......................*/
 .spacing-center {
-  text-align: center;
+  text-align: center !important;
 } 
 
 .video-title {
   margin-bottom: 70px;
 }
-
+.video-responsive {
+  overflow: hidden;
+  position: relative;
+  min-height: 420px !important;
+  width: 100%;
+}
+iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+}
 /* about section 
 .......................*/
+   .about-container {
+    justify-content: center;
+    display: flex;
+  }
   .flex-alignment {
     display: flex !important;
     flex-wrap: wrap;
